@@ -49,7 +49,7 @@ Al final de la página hay un botón que llevará de nuevo al cliente a la tiend
 
     <br>
     <br>
-    <a class="button" href="<?= $comercio["url_retorno"] ?>">Volver a la tienda</a>
+    <a class="button" href="<?= $comercio["url_retorno"] . '?cod_pedido=' . $cod_pedido?>">Volver a la tienda</a>
     </form>
 </body>
 
