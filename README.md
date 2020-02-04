@@ -35,3 +35,5 @@ Ej:
     "msg": "Servidor de la tienda informado"
 }
 ```
+
+Finalmente, el usuario volverá a la tienda con un get reentrando por GET a la url indicada, pasando "cod_pedido" como parámetro.
